@@ -1,7 +1,7 @@
 TYNG_0_1
 v7
 r0
-t307565881.960813
+t307568578.507283
 cCheck dependencies
 cProcessInfoPlistFile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/Info.plist Info.plist
 cCpResource build/Debug/YNG_0_1.app/Contents/Resources/file.txt file.txt
@@ -9,6 +9,10 @@ cCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/main.o /Us
 cCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Player.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Player.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Logic.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Logic.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/NetWorkHandler.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/NetWorkHandler.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Level.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Level.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/View.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/View.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/SpecialAbility.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/SpecialAbility.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/TerrainObject.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/TerrainObject.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cLd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/MacOS/YNG_0_1 normal i386
 cPBXCp build/Debug/YNG_0_1.app/Contents/Frameworks/sfml-system.framework /Library/Frameworks/sfml-system.framework
 cPBXCp build/Debug/YNG_0_1.app/Contents/Frameworks/sfml-window.framework /Library/Frameworks/sfml-window.framework
@@ -453,6 +457,22 @@ i<algorithm>
 i<vector>
 i<math.h>
 
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Level.cpp
+c000000004CA4DFBB000000000000009C
+t1285873595
+s156
+i"Level.hpp"
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Level.h
+c000000004CA4DFB10000000000000084
+t1285873585
+s132
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Level.hpp
+c000000004CA4E46B00000000000000B1
+t1285874795
+s177
+
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Logic.cpp
 c000000004CA4D5C4000000000000009B
 t1285871044
@@ -500,13 +520,67 @@ s538
 i<SFML/Graphics.hpp>
 
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Player.hpp
-c000000004CA4D6230000000000000247
-t1285871139
-s583
+c000000004CA4E7DD000000000000027C
+t1285875677
+s636
 i<SFML/Graphics.hpp>
+i"VisibleObject.hpp"
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/SpecialAbility.cpp
+c000000004CA4E4FD00000000000000AE
+t1285874941
+s174
+i"SpecialAbility.hpp"
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/SpecialAbility.h
+c000000004CA4E4F6000000000000008D
+t1285874934
+s141
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/SpecialAbility.hpp
+c000000004CA4E53A00000000000000CA
+t1285875002
+s202
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/TerrainObject.cpp
+c000000004CA4E5A800000000000000AC
+t1285875112
+s172
+i"TerrainObject.hpp"
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/TerrainObject.h
+c000000004CA4E5A1000000000000008C
+t1285875105
+s140
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/TerrainObject.hpp
+c000000004CA4E5DC00000000000000C5
+t1285875164
+s197
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/View.cpp
+c000000004CA4E488000000000000009A
+t1285874824
+s154
+i"View.hpp"
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/View.h
+c000000004CA4E4810000000000000083
+t1285874817
+s131
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/View.hpp
+c000000004CA4E4B700000000000000AC
+t1285874871
+s172
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/VisibleObject.hpp
+c000000004CA4E7C200000000000000E5
+t1285875650
+s229
 
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app
-t1285873081
+t1285875680
 s102
 
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/Frameworks/sfml-graphics.framework
@@ -526,7 +600,7 @@ t1285870044
 s604
 
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/MacOS/YNG_0_1
-t1285873081
+t1285875680
 s29516
 
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/PkgInfo
@@ -545,8 +619,12 @@ N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0
 t1285872919
 s22
 
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Level.o
+t1285875679
+s1236
+
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Logic.o
-t1285871448
+t1285875680
 s42612
 
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/NetWorkHandler.o
@@ -554,16 +632,28 @@ t1285871690
 s1244
 
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Player.o
-t1285871154
+t1285875679
 s42616
 
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/SpecialAbility.o
+t1285875679
+s1244
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/TerrainObject.o
+t1285875661
+s1244
+
+N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/View.o
+t1285875661
+s1236
+
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/YNG_0_1.LinkFileList
-c000000004CA4D7580000000000000211
-t1285871448
-s529
+c000000004CA4E7C20000000000000429
+t1285875650
+s1065
 
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/main.o
-t1285873081
+t1285875679
 s125908
 
 N/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/file.txt
@@ -602,11 +692,24 @@ s634
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies307565881#307565881#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies307568578#307568578#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Level.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Level.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307568479.601613
+e307568479.632930
+r1
+xCompileC
+xbuild/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Level.o
+x/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Level.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Level.cpp307568479#307568479#0(0"0(0#0#71"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Level.cpp4300885448#1441"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Level.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Level.o0#
 
 CCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Logic.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Logic.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s307564248.239386
-e307564248.923327
+s307568479.405908
+e307568480.148817
 r1
 xCompileC
 xbuild/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Logic.o
@@ -615,7 +718,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Logic.cpp307564248#307564248#0(0"0(0#0#71"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Logic.cpp4300885448#1441"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Logic.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Logic.o0#
+lSLF07#2@79"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Logic.cpp307568479#307568480#0(0"0(0#0#71"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Logic.cpp4300885448#1441"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Logic.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Logic.o0#
 
 CCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/NetWorkHandler.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/NetWorkHandler.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s307564490.843440
@@ -631,8 +734,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/NetWorkHandler.cpp307564490#307564490#0(0"0(0#0#80"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/NetWorkHandler.cpp4300885448#1459"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/NetWorkHandler.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/NetWorkHandler.o0#
 
 CCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Player.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Player.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s307563953.328233
-e307563954.153192
+s307568478.175356
+e307568479.405803
 r1
 xCompileC
 xbuild/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Player.o
@@ -641,11 +744,50 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Player.cpp307563953#307563954#0(0"0(0#0#72"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Player.cpp4300885448#1443"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Player.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Player.o0#
+lSLF07#2@80"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Player.cpp307568478#307568479#0(0"0(0#0#72"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Player.cpp4300885448#1443"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Player.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/Player.o0#
+
+CCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/SpecialAbility.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/SpecialAbility.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307568479.633133
+e307568479.663192
+r1
+xCompileC
+xbuild/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/SpecialAbility.o
+x/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/SpecialAbility.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/SpecialAbility.cpp307568479#307568479#0(0"0(0#0#80"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/SpecialAbility.cpp4300885448#1459"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/SpecialAbility.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/SpecialAbility.o0#
+
+CCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/TerrainObject.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/TerrainObject.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307568460.757423
+e307568461.011117
+r1
+xCompileC
+xbuild/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/TerrainObject.o
+x/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/TerrainObject.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/TerrainObject.cpp307568460#307568461#0(0"0(0#0#79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/TerrainObject.cpp4300885448#1457"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/TerrainObject.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/TerrainObject.o0#
+
+CCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/View.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/View.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307568460.689842
+e307568461.011306
+r1
+xCompileC
+xbuild/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/View.o
+x/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/View.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/View.cpp307568460#307568461#0(0"0(0#0#70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/View.cpp4300885448#1439"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/View.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/View.o0#
 
 CCompileC build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/main.o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s307565881.087707
-e307565881.789778
+s307568478.174163
+e307568479.601408
 r1
 xCompileC
 xbuild/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/main.o
@@ -663,7 +805,7 @@ o/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp
 o/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:37:18: warning: multi-character character constant
 o/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:38:18: warning: multi-character character constant
 o/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:39:18: warning: multi-character character constant
-lSLF07#2@78"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565881#307565881#0(1144"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp:6:/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:32:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:33:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:34:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:35:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:36:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:37:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:38:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:39:18: warning: multi-character character constant8(22@34"Multi-character character constant307565881#96#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565881#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565881#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#32#0#32#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#32#0#32#0#0"0(22@34"Multi-character character constant307565881#227#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565881#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565881#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#33#0#33#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#33#0#33#0#0"0(22@34"Multi-character character constant307565881#358#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565881#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565881#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#34#0#34#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#34#0#34#0#0"0(22@34"Multi-character character constant307565881#489#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565881#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565881#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#35#0#35#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#35#0#35#0#0"0(22@34"Multi-character character constant307565881#620#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565881#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565881#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#36#0#36#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#36#0#36#0#0"0(22@34"Multi-character character constant307565881#751#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565881#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565881#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#37#0#37#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#37#0#37#0#0"0(22@34"Multi-character character constant307565881#882#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565881#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565881#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#38#0#38#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#38#0#38#0#0"0(22@34"Multi-character character constant307565881#1013#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565881#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565881#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#39#0#39#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#39#0#39#0#0"0(0#0#70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp4300885448#1439"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/main.o0#
+lSLF07#2@78"Compile /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307568478#307568479#0(1144"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp:6:/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:32:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:33:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:34:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:35:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:36:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:37:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:38:18: warning: multi-character character constant/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp:39:18: warning: multi-character character constant8(22@34"Multi-character character constant307568478#96#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307568478#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307568478#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#32#0#32#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#32#0#32#0#0"0(22@34"Multi-character character constant307568478#227#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307568478#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307568478#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#33#0#33#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#33#0#33#0#0"0(22@34"Multi-character character constant307568478#358#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307568478#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307568478#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#34#0#34#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#34#0#34#0#0"0(22@34"Multi-character character constant307568478#489#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307568478#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307568478#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#35#0#35#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#35#0#35#0#0"0(22@34"Multi-character character constant307568478#620#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307568478#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307568478#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#36#0#36#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#36#0#36#0#0"0(22@34"Multi-character character constant307568478#751#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307568478#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307568478#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#37#0#37#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#37#0#37#0#0"0(22@34"Multi-character character constant307568478#882#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307568478#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307568478#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#38#0#38#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#38#0#38#0#0"0(22@34"Multi-character character constant307568478#1013#131#2(7@92"In file included from /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307568478#18446744073709551615#0#0(6@70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp307565749#6#0#6#0#0"0(13@117"Multi-character character constant in /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307568478#18446744073709551615#0#0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#39#0#39#0#0"0(6@79"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/InFileHandler.hpp307565850#39#0#39#0#0"0(0#0#70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp4300885448#1439"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-generated-files.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-own-target-headers.hmap -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-all-target-headers.hmap -iquote /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/YNG_0_1-project-headers.hmap -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/include -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources/i386 -I/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/DerivedSources -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/main.cpp -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/main.o0#
 
 CCpResource build/Debug/YNG_0_1.app/Contents/Resources/InFileHandler InFileHandler
 r0
@@ -681,14 +823,14 @@ xfile.txt
 lSLF07#2@13"Copy file.txt307565719#307565719#0(0"0(0#0#70"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/file.txt4300885448#393"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/file.txt /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/Resources0#
 
 CLd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/MacOS/YNG_0_1 normal i386
-s307565881.789873
-e307565881.957180
+s307568480.149049
+e307568480.930851
 r1
 xLd
 x/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/MacOS/YNG_0_1
 xnormal
 xi386
-lSLF07#2@113"Link /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/MacOS/YNG_0_1307565881#307565881#0(0"0(0#0#0"4300885448#599"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    /Developer/usr/bin/g++-4.2 -arch i386 -L/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -filelist /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/YNG_0_1.LinkFileList -framework sfml-graphics -framework sfml-system -framework sfml-window -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/MacOS/YNG_0_10#
+lSLF07#2@113"Link /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/MacOS/YNG_0_1307568480#307568480#0(0"0(0#0#0"4300885448#599"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    /Developer/usr/bin/g++-4.2 -arch i386 -L/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -F/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug -filelist /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/YNG_0_1.build/Debug/YNG_0_1.build/Objects-normal/i386/YNG_0_1.LinkFileList -framework sfml-graphics -framework sfml-system -framework sfml-window -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/MacOS/YNG_0_10#
 
 CPBXCp build/Debug/YNG_0_1.app/Contents/Frameworks/sfml-graphics.framework /Library/Frameworks/sfml-graphics.framework
 s307562844.659134
@@ -727,10 +869,10 @@ xInfo.plist
 lSLF07#2@18"Process Info.plist307562844#307562844#0(0"0(0#0#72"/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/Info.plist4300885448#371"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    builtin-infoPlistUtility Info.plist -genpkginfo /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app/Contents/Info.plist0#
 
 CTouch /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app
-s307565881.957488
-e307565881.960741
+s307568480.931277
+e307568480.940844
 r1
 xTouch
 x/Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app
-lSLF07#2@91"Touch /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app307565881#307565881#0(0"0(0#0#0"4300885448#177"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    /usr/bin/touch -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app0#
+lSLF07#2@91"Touch /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app307568480#307568480#0(0"0(0#0#0"4300885448#177"    cd /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1    /usr/bin/touch -c /Users/pettair/Documents/Workspaces/Xcode/C++/Project/YNG_0_1/build/Debug/YNG_0_1.app0#
 

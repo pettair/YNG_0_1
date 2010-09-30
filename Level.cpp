@@ -1,5 +1,5 @@
 /*
- *  NetWorkHandler.cpp
+ *  Level.cpp
  *  YNG_0_1
  *
  *  Created by Peter Bíró on 9/30/10.
@@ -7,7 +7,5 @@
  *
  */
 
-#ifndef HELPER_HPP
-#define HELPER_HPP
+#include "Level.hpp"
 
-#endif

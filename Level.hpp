@@ -1,5 +1,5 @@
 /*
- *  NetWorkHandler.cpp
+ *  Level.h
  *  YNG_0_1
  *
  *  Created by Peter Bíró on 9/30/10.
@@ -7,7 +7,13 @@
  *
  */
 
-#ifndef HELPER_HPP
-#define HELPER_HPP
+#ifndef LEVEL_HPP
+#define LEVEL_HPP
+
+#include "VisibleObject.hpp"
+
+class Level : public VisbleObject {
+	
+};
 
 #endif

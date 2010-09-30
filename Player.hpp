@@ -10,6 +10,8 @@
 #define PLAYER_HPP
 #include <SFML/Graphics.hpp>
 
+#include "VisibleObject.hpp"
+
 enum KeyType
 {
 	UP,DOWN,RIGHT,LEFT,SPACE
@@ -17,7 +19,7 @@ enum KeyType
 
 typedef std::map<KeyType, bool> mapType;
 
-class Palyer{
+class Palyer : public VisibleObject{
 	
 private:
 	sf::Sprite sprite;

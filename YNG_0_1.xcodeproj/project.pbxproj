@@ -11,6 +11,10 @@
 		1E98082412550CA60096D1BA /* Logic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E98082312550CA60096D1BA /* Logic.cpp */; };
 		1E98082F12550DE00096D1BA /* NetWorkHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E98082E12550DE00096D1BA /* NetWorkHandler.cpp */; };
 		1E9808491255143F0096D1BA /* file.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1E9808481255143F0096D1BA /* file.txt */; };
+		1E98087A125517310096D1BA /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E980879125517310096D1BA /* Level.cpp */; };
+		1E98087D12551C010096D1BA /* View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E98087C12551C010096D1BA /* View.cpp */; };
+		1E98088012551C760096D1BA /* SpecialAbility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E98087F12551C760096D1BA /* SpecialAbility.cpp */; };
+		1E98088312551D210096D1BA /* TerrainObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E98088212551D210096D1BA /* TerrainObject.cpp */; };
 		A0072ADE0F1D0EC500B4A594 /* sfml-system.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CB0F07CFF2000AAC7B /* sfml-system.framework */; };
 		A0072ADF0F1D0EC500B4A594 /* sfml-window.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CC0F07CFF2000AAC7B /* sfml-window.framework */; };
 		A0072AE00F1D0EC500B4A594 /* sfml-graphics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CA0F07CFF2000AAC7B /* sfml-graphics.framework */; };
@@ -47,6 +51,15 @@
 		1E98083412550F0E0096D1BA /* InFileHandler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InFileHandler.hpp; sourceTree = "<group>"; };
 		1E9808481255143F0096D1BA /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file.txt; sourceTree = "<group>"; };
 		1E980872125515300096D1BA /* Exceptions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Exceptions.hpp; sourceTree = "<group>"; };
+		1E980878125517310096D1BA /* Level.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Level.hpp; sourceTree = "<group>"; };
+		1E980879125517310096D1BA /* Level.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
+		1E98087B12551C010096D1BA /* View.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = View.hpp; sourceTree = "<group>"; };
+		1E98087C12551C010096D1BA /* View.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = View.cpp; sourceTree = "<group>"; };
+		1E98087E12551C760096D1BA /* SpecialAbility.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SpecialAbility.hpp; sourceTree = "<group>"; };
+		1E98087F12551C760096D1BA /* SpecialAbility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpecialAbility.cpp; sourceTree = "<group>"; };
+		1E98088112551D210096D1BA /* TerrainObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TerrainObject.hpp; sourceTree = "<group>"; };
+		1E98088212551D210096D1BA /* TerrainObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TerrainObject.cpp; sourceTree = "<group>"; };
+		1E98088412551D970096D1BA /* VisibleObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VisibleObject.hpp; sourceTree = "<group>"; };
 		A01FB6A90F07CF6E000AAC7B /* YNG_0_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNG_0_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01FB6AC0F07CF6E000AAC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A01FB6C80F07CFCE000AAC7B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -121,6 +134,15 @@
 				1E98082212550CA60096D1BA /* Logic.hpp */,
 				1E98082312550CA60096D1BA /* Logic.cpp */,
 				1E98083412550F0E0096D1BA /* InFileHandler.hpp */,
+				1E980878125517310096D1BA /* Level.hpp */,
+				1E980879125517310096D1BA /* Level.cpp */,
+				1E98087B12551C010096D1BA /* View.hpp */,
+				1E98087C12551C010096D1BA /* View.cpp */,
+				1E98087E12551C760096D1BA /* SpecialAbility.hpp */,
+				1E98087F12551C760096D1BA /* SpecialAbility.cpp */,
+				1E98088112551D210096D1BA /* TerrainObject.hpp */,
+				1E98088212551D210096D1BA /* TerrainObject.cpp */,
+				1E98088412551D970096D1BA /* VisibleObject.hpp */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -184,6 +206,10 @@
 				1E98080C125509870096D1BA /* Player.cpp in Sources */,
 				1E98082412550CA60096D1BA /* Logic.cpp in Sources */,
 				1E98082F12550DE00096D1BA /* NetWorkHandler.cpp in Sources */,
+				1E98087A125517310096D1BA /* Level.cpp in Sources */,
+				1E98087D12551C010096D1BA /* View.cpp in Sources */,
+				1E98088012551C760096D1BA /* SpecialAbility.cpp in Sources */,
+				1E98088312551D210096D1BA /* TerrainObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
